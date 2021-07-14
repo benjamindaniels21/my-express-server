@@ -13,6 +13,10 @@ app.get("/about", function(req, res){
   res.send("<p>My name is Ben. I'm an aspiring software developer. I'm currently learning JS and this is my first project using Express.js.</p>")
 });
 
+app.get("/hobbies", function(req, res){
+  res.send("<p>I like making things out of wood and coding.</p>")
+});
+
 app.listen(3000, function () {
   console.log("server started on port 3000");
 });
